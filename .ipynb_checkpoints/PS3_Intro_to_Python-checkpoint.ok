@@ -1,0 +1,15 @@
+{
+  "name": "PS3 Intro Notebook",
+  "endpoint": "cal/econ101b/fa18/PS3",
+  "src": [
+    "PS3_Intro_to_Python.ipynb"
+  ],
+  "tests": {
+      "ok_tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
